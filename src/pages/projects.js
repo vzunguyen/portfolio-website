@@ -20,17 +20,21 @@ export default function Projects() {
                 <h class="font-semibold text-xl mr-3 leading-5">
                   {project.title}
                 </h>
-                {project.skills.map((skill) => (
+                {project.skills.map((skill, index) => (
                   <li
                     class="inline text-sm text-gray-600 font-mono leading-5 align-middle mr-2"
                     key={skill}
                   >
                     {skill}
+                    {index < project.skills.length - 1 ? "," : "."}
                   </li>
                 ))}
               </div>
-              <p class="text-sm pb-5">Link: {project.link}</p>
-              <p>{project.description}</p>
+              <p class="text-sm text-gray">{project.state}</p>
+              <a href={project.link} class="text-sm">
+                {project.link}
+              </a>
+              <p class="mt-2">{project.description}</p>
             </div>
           </div>
         </div>

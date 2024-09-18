@@ -3,32 +3,44 @@
         {
             "title": "LLMs Project",
             "skills": ["React", "Node.js", "Express.js", "MongoDB"],
+            "state": "In Progress",
             "link" : "http://www.google.com",
             "description": "A web application for managing inventory and sales."
         },
         {
-            "title": "Todo Game Project",
+            "title": "Weather and Energy Efficiency Prediction Project",
             "skills": ["React", "Node.js", "Express.js", "MongoDB"],
+            "state": "In Progress",
             "link" : "http://www.google.com",
             "description": "A mobile application for managing customer accounts and financial transactions."
         },
         {
-            "title": "Todo Game Project",
+            "title": "Portfolio Website",
             "skills": ["React", "Node.js", "Express.js", "MongoDB"],
-            "link" : "http://www.google.com",
+            "state": "In Progress",
+            "link" : "https://github.com/vzunguyen/todo-app",
             "description": "A mobile application for managing customer accounts and financial transactions. This is a new line to test"
         },
         {
-            "title": "Todo Game Project",
+            "title": "To Do Application Project using React",
             "skills": ["React", "Node.js", "Express.js", "MongoDB"],
-            "link" : "http://www.google.com",
+            "state": "In Progress",
+            "link" : "https://github.com/vzunguyen/todo-app",
+            "description": "A mobile application for managing customer accounts and financial transactions. This is a new line to test"
+        },
+        {
+            "title": "Custom Web Application Project",
+            "skills": [".NET", "C#", "SQLite", "Bootstrap", "RESTful API", "JavaScript", "Vue.js"],
+            "state": "Completed",
+            "link" : "https://github.com/vzunguyen/CustomWebApplication",
             "description": "A mobile application for managing customer accounts and financial transactions."
         },
         {
-            "title": "Todo Game Project",
-            "skills": ["React", "Node.js", "Express.js", "MongoDB"],
-            "link" : "http://www.google.com",
-            "description": "A mobile application for managing customer accounts and financial transactions."
+            "title": "To Do Game Project",
+            "skills": ["Ruby on Rails", "Gosu library"],
+            "state": "Completed",
+            "link" : "https://github.com/vzunguyen/to-do-app",
+            "description": "This is my first ever project made with Ruby and Gosu. This app combines the functionality of a to-do application with a fun twist. With this app, users can earn coins each time they complete a task. It offers the basic features of task management, allowing users to create and delete tasks. Additionally, the app enhances the user experience with a lofi music background, which can be paused if desired. This simple yet engaging app makes task completion more enjoyable while keeping users productive."
         }
     ]
 }

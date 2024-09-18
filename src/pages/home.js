@@ -1,4 +1,5 @@
 import React from "react";
+import contactsData from "../data/contacts.json";
 
 export default function Home() {
   return (
@@ -24,14 +25,12 @@ export default function Home() {
             Contacts
           </h1>
         </div>
-        <p>
-          I am a full stack developer with a background in finance and
-          accounting. I have a passion for technology and problem solving. I am
-          a quick learner and always looking to improve my skills. I am a team
-          player and I am always willing to help others. I am excited to start
-          my career in tech and I am looking forward to the challenges that lie
-          ahead.
-        </p>
+        {contactsData.contacts.map((contacts) => (
+          <div class="m-7" key={contacts.id}>
+            <p>{contacts.type}:</p>
+            <p>{contacts.value}</p>
+          </div>
+        ))}
       </div>
     </div>
   );

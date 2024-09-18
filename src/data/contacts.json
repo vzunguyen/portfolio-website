@@ -1,8 +1,28 @@
 {
-    "contacts": {
-        "Email": "contact@me",
-        "LinkedIn": "1",
-        "Github": "2",
-        "LeetCode": "3"
-    }
+    "contacts": [
+        {
+            "type": "Email",
+            "value": "123"
+        },
+        {
+            "type": "Phone",
+            "value": "456"
+        },
+        {
+            "type": "Address",
+            "value": "789"
+        },
+        {
+            "type": "LinkedIn",
+            "value": "linkedin.com/in/duvan-nguyen"
+        },
+        {
+            "type": "GitHub",
+            "value": "github.com/vzunguyen"
+        },
+        {
+            "type": "Leetcode",
+            "value": "www.duvannguyen.com"
+        }
+    ]
 }
