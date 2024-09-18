@@ -1,0 +1,20 @@
+{
+    "skills": [
+        {
+            "name": "Programming Languages",
+            "properties": ["JavaScript", "Python", "C++", "Java"]
+        },
+        {
+            "name": "Frameworks and Libraries",
+            "properties": ["React", "Node.js", "Django", "Flask", "Express.js"]
+        },
+        {
+            "name": "Tools",
+            "properties": ["Git", "Docker", "Jupyter Notebook", "VS Code", "Postman"]
+        },
+        {
+            "name": "Soft Skills",
+            "properties": ["MySQL", "PostgreSQL", "MongoDB"]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "experiences": [
+        {
+            "title": "Software Engineer",
+            "company": "XYZ Corp",
+            "duration": "2020 - Present",
+            "description": "Worked on various projects, including frontend and backend development, as well as managing project teams."
+        },
+        {
+            "title": "Sales Assistant",
+            "company": "ABC Bank",
+            "duration": "2018 - 2020",
+            "description": "Analyzed financial data, conducted market research, and provided financial advice to clients."
+        }
+    ]
+}

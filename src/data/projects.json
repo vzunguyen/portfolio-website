@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "title": "LLMs Project",
+            "skills": ["React", "Node.js", "Express.js", "MongoDB"],
+            "link" : "http://www.google.com",
+            "description": "A web application for managing inventory and sales."
+        },
+        {
+            "title": "Todo Game Project",
+            "skills": ["React", "Node.js", "Express.js", "MongoDB"],
+            "link" : "http://www.google.com",
+            "description": "A mobile application for managing customer accounts and financial transactions."
+        },
+        {
+            "title": "Todo Game Project",
+            "skills": ["React", "Node.js", "Express.js", "MongoDB"],
+            "link" : "http://www.google.com",
+            "description": "A mobile application for managing customer accounts and financial transactions. This is a new line to test"
+        },
+        {
+            "title": "Todo Game Project",
+            "skills": ["React", "Node.js", "Express.js", "MongoDB"],
+            "link" : "http://www.google.com",
+            "description": "A mobile application for managing customer accounts and financial transactions."
+        },
+        {
+            "title": "Todo Game Project",
+            "skills": ["React", "Node.js", "Express.js", "MongoDB"],
+            "link" : "http://www.google.com",
+            "description": "A mobile application for managing customer accounts and financial transactions."
+        }
+    ]
+}
