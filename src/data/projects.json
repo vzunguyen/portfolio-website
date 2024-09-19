@@ -16,10 +16,10 @@
         },
         {
             "title": "Portfolio Website",
-            "skills": ["React", "JavaScript", "TailwindCSS", "JSON"],
+            "skills": ["React", "JavaScript", "TailwindCSS", "JSON", "Vercel"],
             "state": "Completed",
             "link" : "https://github.com/vzunguyen/portfolio-website",
-            "description": "This website is made with React and Tailwind CSS, and uses JSON data to display my information."
+            "description": "This website is made with React and Tailwind CSS, and uses JSON data to display my information. This website is deployed on Vercel."
         },
         {
             "title": "To Do Application Project using React",
