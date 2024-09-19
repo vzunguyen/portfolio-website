@@ -23,7 +23,7 @@
         },
         {
             "title": "To Do Application Project using React",
-            "skills": ["React", "Node.js", "Express.js", "MongoDB"],
+            "skills": ["React", "MongoDB"],
             "state": "In Progress",
             "link" : "https://github.com/vzunguyen/todo-app",
             "description": "This is a small project made with React to help me learn about the basics of React framework."

@@ -36,8 +36,8 @@ export default function Home() {
                   className="contact-icon"
                   class="inline h-5 w-5"
                 />
-                <li class="inline m-2">{contacts.type}:</li>
-                <li class="inline">{contacts.value}</li>
+                <li class="inline m-2 min-[320px]:hidden">{contacts.type}:</li>
+                <li class="inline ml-2">{contacts.value}</li>
               </div>
             </div>
           );

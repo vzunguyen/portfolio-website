@@ -18,11 +18,13 @@ export default function Skills() {
               <div class="flex">
                 <article class="p-2 m-2">
                   <div class="justify-center">
-                    <h2 class="font-bold align-top justify-center">
+                    <h2 class="font-bold align-top text-center">
                       {skill.name}
                     </h2>
                     {skill.properties.map((property) => (
-                      <p key={property}>{property}</p>
+                      <p key={property} class="text-center">
+                        {property}
+                      </p>
                     ))}
                   </div>
                 </article>

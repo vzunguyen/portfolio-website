@@ -20,19 +20,37 @@ export default function Projects() {
                 <h class="font-semibold text-xl mr-3 leading-5">
                   {project.title}
                 </h>
-                {project.skills.map((skill, index) => (
-                  <li
-                    class="inline text-sm text-gray-600 font-mono leading-5 align-middle mr-2"
-                    key={skill}
-                  >
-                    {skill}
-                    {index < project.skills.length - 1 ? "," : "."}
-                  </li>
-                ))}
+                <div class="text-wrap min-[320px]:hidden">
+                  {project.skills.map((skill, index) => (
+                    <p
+                      class="inline text-wrap text-sm text-gray-600 font-mono leading-5 align-middle mr-2"
+                      key={skill}
+                    >
+                      {skill}
+                      {index < project.skills.length - 1 ? "," : "."}
+                    </p>
+                  ))}
+                </div>
+                <div class="min-[640px]:hidden">
+                  {project.skills.map((skill, index) => (
+                    <p class="text-xs text-gray-600 font-mono mr-2" key={skill}>
+                      {skill}
+                    </p>
+                  ))}
+                </div>
               </div>
-              <p class="text-sm text-gray">{project.state}</p>
-              <a href={project.link} class="text-sm hover:text-slate-500">
+              <p class="text-wrap text-sm text-gray">{project.state}</p>
+              <a
+                href={project.link}
+                class="text-overflow text-sm hover:text-slate-500 min-[320px]:hidden"
+              >
                 {project.link}
+              </a>
+              <a
+                href={project.link}
+                class="text-overflow text-sm hover:text-slate-500 sm:hidden"
+              >
+                GitHub Link
               </a>
               <p class="mt-2">{project.description}</p>
             </div>
