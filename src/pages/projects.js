@@ -31,7 +31,7 @@ export default function Projects() {
                 ))}
               </div>
               <p class="text-sm text-gray">{project.state}</p>
-              <a href={project.link} class="text-sm">
+              <a href={project.link} class="text-sm hover:text-slate-500">
                 {project.link}
               </a>
               <p class="mt-2">{project.description}</p>

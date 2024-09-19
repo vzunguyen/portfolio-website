@@ -1,16 +1,28 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "company": "XYZ Corp",
-            "duration": "2020 - Present",
-            "description": "Worked on various projects, including frontend and backend development, as well as managing project teams."
+            "title": "Sales Team Member and Online Personal Shopper",
+            "company": "Woolworths Supermarkets",
+            "duration": "2023 - Present",
+            "description": [
+                "Acquired strong customer service skills, enhancing ability to understand and meet user needs in software development.",
+                "Delivered products to customers in a fast-paced, technology-driven retail environment, demonstrating adaptability to new systems.",
+                "Collaborated effectively in a team setting, a crucial skill for software development projects.",
+                "Demonstrated problem-solving skills by addressing customer inquiries and resolving issues efficiently.",
+                "Utilised digital platforms and software for order processing, gaining familiarity with e-commerce systems.",
+                "Demonstrated attention to detail in fulfilling online orders accurately, a skill directly applicable to coding and debugging.",
+                "Developed time management skills by efficiently processing multiple orders."
+            ]
         },
         {
             "title": "Sales Assistant",
-            "company": "ABC Bank",
-            "duration": "2018 - 2020",
-            "description": "Analyzed financial data, conducted market research, and provided financial advice to clients."
+            "company": "LANN Jewelry",
+            "duration": "2022 - 2023",
+            "description": [
+                "Demonstrated strong communications with customers, explaining product’s design and details.",
+                "Improved teamwork skills, delegating work to other team members.",
+                "Cultivated attention to details as it was needed for quality assurance."
+            ]
         }
     ]
 }

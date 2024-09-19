@@ -2,27 +2,23 @@
     "contacts": [
         {
             "type": "Email",
-            "value": "123"
+            "value": "vandu7124@gmail.com"
         },
         {
             "type": "Phone",
-            "value": "456"
+            "value": "(+61)474 380 375"
         },
         {
             "type": "Address",
-            "value": "789"
+            "value": "Melbourne, Victoria, Australia"
         },
         {
             "type": "LinkedIn",
-            "value": "linkedin.com/in/duvan-nguyen"
+            "value": "https://www.linkedin.com/in/du-van-nguyen-4209912b5/"
         },
         {
             "type": "GitHub",
-            "value": "github.com/vzunguyen"
-        },
-        {
-            "type": "Leetcode",
-            "value": "www.duvannguyen.com"
+            "value": "https://github.com/vzunguyen"
         }
     ]
 }

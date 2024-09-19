@@ -1,20 +1,20 @@
 {
     "skills": [
         {
+            "name": "Soft Skills",
+            "properties": ["Communication", "Adaptability", "Leadership"]
+        },
+        {
             "name": "Programming Languages",
-            "properties": ["JavaScript", "Python", "C++", "Java"]
+            "properties": ["C#", "C++", "JavaScript", "Python", "HTML", "CSS", "PHP", "SQL", "Sass"]
         },
         {
             "name": "Frameworks and Libraries",
-            "properties": ["React", "Node.js", "Django", "Flask", "Express.js"]
+            "properties": ["React", "Vue,js", ".NET", "SQLite", "Bootstrap", "TailwindCSS", "LitGPT", "PyTorch"]
         },
         {
             "name": "Tools",
-            "properties": ["Git", "Docker", "Jupyter Notebook", "VS Code", "Postman"]
-        },
-        {
-            "name": "Soft Skills",
-            "properties": ["MySQL", "PostgreSQL", "MongoDB"]
+            "properties": ["Git", "Docker", "Jira", "Postman", "AWS"]
         }
     ]
 }

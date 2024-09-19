@@ -10,13 +10,13 @@ export default function Home() {
             Who am I?
           </h1>
         </div>
-        <p class="flex flex-auto mt-3 p-3">
-          I am a full stack developer with a background in finance and
-          accounting. I have a passion for technology and problem solving. I am
-          a quick learner and always looking to improve my skills. I am a team
-          player and I am always willing to help others. I am excited to start
-          my career in tech and I am looking forward to the challenges that lie
-          ahead.
+        <p class="flex flex-auto mt-5 p-5">
+          I am currently a second year student at Swinburne Univerisity of
+          Technology, studying Computer Science with a major in Software
+          Development. I am passionate about technology and problem-solving.
+          Additionally, I am always eager to learn more and improve my skills as
+          it is important to quickly adapt in this everchanging world of
+          technology.
         </p>
       </div>
       <div class="block p-6 m-6 bg-white border border-gray-100 rounded-lg shadow-sm">
@@ -25,12 +25,23 @@ export default function Home() {
             Contacts
           </h1>
         </div>
-        {contactsData.contacts.map((contacts) => (
-          <div class="m-7" key={contacts.id}>
-            <p>{contacts.type}:</p>
-            <p>{contacts.value}</p>
-          </div>
-        ))}
+
+        {contactsData.contacts.map((contacts) => {
+          return (
+            <div class="m-7" key={contacts.id}>
+              <div class="inline-block">
+                <img
+                  src={require(`../assets/contacts/${contacts.type.toLowerCase()}.png`)}
+                  alt={contacts.type.toLowerCase()}
+                  className="contact-icon"
+                  class="inline h-5 w-5"
+                />
+                <li class="inline m-2">{contacts.type}:</li>
+                <li class="inline">{contacts.value}</li>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

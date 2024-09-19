@@ -12,10 +12,14 @@ export default function Experience() {
       <div class="">
         {expData.experiences.map((exp) => (
           <div class="m-7" key={exp.id}>
-            <h2>{exp.title}</h2>
-            <p>{exp.company}</p>
+            <h2 class="text-2xl pb-2">{exp.title}</h2>
+            <p>
+              <i>at {exp.company}</i>
+            </p>
             <p>{exp.duration}</p>
-            <p>{exp.description}</p>
+            {exp.description.map((desc) => (
+              <li class="mt-2">{desc}</li>
+            ))}
           </div>
         ))}
       </div>

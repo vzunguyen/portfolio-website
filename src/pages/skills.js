@@ -11,16 +11,26 @@ export default function Skills() {
           My Skills
         </h1>
       </div>
-      {skillsData.skills.map((skill) => (
-        <div key={skill.id}>
-          <h2 class="font-bold">{skill.name}</h2>
-          <ul>
-            {skill.properties.map((property) => (
-              <li key={property}>{property}</li>
-            ))}
-          </ul>
-        </div>
-      ))}
+      <div class="max-w-screen-2xl flex flex-wrap items-center justify-evenly mx-auto p-10">
+        {skillsData.skills.map((skill) => (
+          <div class="inline-block">
+            <div key={skill.id}>
+              <div class="flex">
+                <article class="p-2 m-2">
+                  <div class="justify-center">
+                    <h2 class="font-bold align-top justify-center">
+                      {skill.name}
+                    </h2>
+                    {skill.properties.map((property) => (
+                      <p key={property}>{property}</p>
+                    ))}
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

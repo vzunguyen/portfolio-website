@@ -2,45 +2,45 @@
     "projects": [
         {
             "title": "LLMs Project",
-            "skills": ["React", "Node.js", "Express.js", "MongoDB"],
+            "skills": ["Python", "PyTorch", "LitGPT"],
             "state": "In Progress",
-            "link" : "http://www.google.com",
-            "description": "A web application for managing inventory and sales."
+            "link" : "https://github.com/vzunguyen/llms-project",
+            "description": "This project involves building a large language model from scratch, with core components developed independently and later fine-tuned using lit-GPT for improved performance."
         },
         {
             "title": "Weather and Energy Efficiency Prediction Project",
-            "skills": ["React", "Node.js", "Express.js", "MongoDB"],
+            "skills": ["Python", "React", "Javascript", "Jira"],
             "state": "In Progress",
-            "link" : "http://www.google.com",
-            "description": "A mobile application for managing customer accounts and financial transactions."
+            "link" : "https://github.com/vzunguyen/weather-project",
+            "description": "This project involves building a model to help predict weather conditions and energy efficiency using current weather API and NYC historical data."
         },
         {
             "title": "Portfolio Website",
-            "skills": ["React", "Node.js", "Express.js", "MongoDB"],
-            "state": "In Progress",
-            "link" : "https://github.com/vzunguyen/todo-app",
-            "description": "A mobile application for managing customer accounts and financial transactions. This is a new line to test"
+            "skills": ["React", "JavaScript", "TailwindCSS", "JSON"],
+            "state": "Completed",
+            "link" : "https://github.com/vzunguyen/portfolio-website",
+            "description": "This website is made with React and Tailwind CSS, and uses JSON data to display my information."
         },
         {
             "title": "To Do Application Project using React",
             "skills": ["React", "Node.js", "Express.js", "MongoDB"],
             "state": "In Progress",
             "link" : "https://github.com/vzunguyen/todo-app",
-            "description": "A mobile application for managing customer accounts and financial transactions. This is a new line to test"
+            "description": "This is a small project made with React to help me learn about the basics of React framework."
         },
         {
             "title": "Custom Web Application Project",
             "skills": [".NET", "C#", "SQLite", "Bootstrap", "RESTful API", "JavaScript", "Vue.js"],
             "state": "Completed",
             "link" : "https://github.com/vzunguyen/CustomWebApplication",
-            "description": "A mobile application for managing customer accounts and financial transactions."
+            "description": "This website contains features like user authentication, post creation, deletion, and add friend functionality. It was built using .NET, C#, SQLite, Bootstrap, RESTful API, JavaScript, and Vue.js."
         },
         {
             "title": "To Do Game Project",
             "skills": ["Ruby on Rails", "Gosu library"],
             "state": "Completed",
             "link" : "https://github.com/vzunguyen/to-do-app",
-            "description": "This is my first ever project made with Ruby and Gosu. This app combines the functionality of a to-do application with a fun twist. With this app, users can earn coins each time they complete a task. It offers the basic features of task management, allowing users to create and delete tasks. Additionally, the app enhances the user experience with a lofi music background, which can be paused if desired. This simple yet engaging app makes task completion more enjoyable while keeping users productive."
+            "description": "This is my first ever project made with Ruby and Gosu. This app combines the functionality of a to-do application with a fun twist. With this app, users can earn coins each time they complete a task. It offers the basic features of task management, allowing users to create and delete tasks."
         }
     ]
 }

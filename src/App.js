@@ -5,6 +5,7 @@ import Experience from "./pages/experience.js";
 import Projects from "./pages/projects.js";
 import Skills from "./pages/skills.js";
 import NavBar from "./components/navbar.js";
+import Footer from "./components/footer.js";
 import img from "./assets/vzu.png";
 
 // the img is located in src/assets/zu.HEIC and the class name is "zu-photo"
@@ -30,14 +31,17 @@ function App() {
         </div>
       </header>
       <NavBar />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element={<Skills />} />
-        </Routes>
-      </BrowserRouter>
+      <div class="pb-14">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/skills" element={<Skills />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+      <Footer />
     </div>
   );
 }
