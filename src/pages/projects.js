@@ -48,7 +48,7 @@ export default function Projects() {
               </a>
               <a
                 href={project.link}
-                class="text-overflow text-sm hover:text-slate-500 sm:hidden"
+                class="text-overflow underline text-sm hover:text-slate-500  sm:hidden"
               >
                 GitHub Link
               </a>
