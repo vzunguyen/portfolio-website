@@ -34,10 +34,10 @@ export default function Home() {
                   src={require(`../assets/contacts/${contacts.type.toLowerCase()}.png`)}
                   alt={contacts.type.toLowerCase()}
                   className="contact-icon"
-                  class="inline h-5 w-5"
+                  class="inline h-5 w-5 max-[640px]:h-3 max-[640px]:w-3"
                 />
-                <li class="inline m-2 min-[320px]:hidden">{contacts.type}:</li>
-                <li class="inline ml-2 min-[320px]:text-xs">
+                <li class="inline m-2 max-[640px]:hidden">{contacts.type}:</li>
+                <li class="inline ml-2 max-[640px]:text-xs">
                   {contacts.value}
                 </li>
               </div>

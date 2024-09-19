@@ -20,7 +20,7 @@ export default function Projects() {
                 <h class="font-semibold text-xl mr-3 leading-5">
                   {project.title}
                 </h>
-                <div class="text-wrap min-[320px]:hidden">
+                <div class="text-wrap max-[640px]:hidden">
                   {project.skills.map((skill, index) => (
                     <p
                       class="inline text-wrap text-sm text-gray-600 font-mono leading-5 align-middle mr-2"
@@ -32,7 +32,7 @@ export default function Projects() {
                   ))}
                 </div>
                 <div class="min-[640px]:hidden">
-                  {project.skills.map((skill, index) => (
+                  {project.skills.map((skill) => (
                     <p class="text-xs text-gray-600 font-mono mr-2" key={skill}>
                       {skill}
                     </p>
