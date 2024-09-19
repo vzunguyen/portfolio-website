@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <nav class="bg-white border-gray-200">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-evenly mx-auto p-10">
         <a href="/" className="nav-link">
           <div class="flex justify-center">
