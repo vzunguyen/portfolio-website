@@ -37,7 +37,9 @@ export default function Home() {
                   class="inline h-5 w-5"
                 />
                 <li class="inline m-2 min-[320px]:hidden">{contacts.type}:</li>
-                <li class="inline ml-2">{contacts.value}</li>
+                <li class="inline ml-2 min-[320px]:text-xs">
+                  {contacts.value}
+                </li>
               </div>
             </div>
           );
