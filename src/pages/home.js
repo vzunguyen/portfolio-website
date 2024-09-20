@@ -26,20 +26,61 @@ export default function Home() {
           </h1>
         </div>
 
-        {contactsData.contacts.map((contacts) => {
+        {contactsData.contacts.map((contact, index) => {
+          let href = contact.value;
+          let action;
+
+          // Define actions based on contact type
+          if (contact.type === "Email") {
+            href = `mailto:${contact.value}`;
+            action = (
+              <a
+                href={href}
+                className="inline ml-2 max-[640px]:text-xs hover:text-slate-500"
+              >
+                {contact.value}
+              </a>
+            );
+          } else if (contact.type === "Phone") {
+            href = `tel:${contact.value}`;
+            action = (
+              <a
+                href={href}
+                className="inline ml-2 max-[640px]:text-xs hover:text-slate-500"
+              >
+                {contact.value}
+              </a>
+            );
+          } else if (contact.type === "LinkedIn" || contact.type === "GitHub") {
+            action = (
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline ml-2 max-[640px]:text-xs hover:text-slate-500"
+              >
+                {contact.value}
+              </a>
+            );
+          } else {
+            action = (
+              <span className="inline ml-2 max-[640px]:text-xs">
+                {contact.value}
+              </span>
+            );
+          }
+
           return (
-            <div class="m-7" key={contacts.id}>
+            <div class="m-7" key={contact.id}>
               <div class="inline-block">
                 <img
-                  src={require(`../assets/contacts/${contacts.type.toLowerCase()}.png`)}
-                  alt={contacts.type.toLowerCase()}
+                  src={require(`../assets/contacts/${contact.type.toLowerCase()}.png`)}
+                  alt={contact.type.toLowerCase()}
                   className="contact-icon"
                   class="inline h-5 w-5 max-[640px]:h-3 max-[640px]:w-3"
                 />
-                <li class="inline m-2 max-[640px]:hidden">{contacts.type}:</li>
-                <li class="inline ml-2 max-[640px]:text-xs">
-                  {contacts.value}
-                </li>
+                <li class="inline m-2 max-[640px]:hidden">{contact.type}:</li>
+                {action}
               </div>
             </div>
           );
