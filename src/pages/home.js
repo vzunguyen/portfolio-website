@@ -11,7 +11,7 @@ export default function Home() {
           </h1>
         </div>
         <p class="flex flex-auto mt-5 p-5">
-          I am currently a second year student at Swinburne Univerisity of
+          I am currently a second year student at Swinburne University of
           Technology, studying Computer Science with a major in Software
           Development. I am passionate about technology and problem-solving.
           Additionally, I am always eager to learn more and improve my skills as
