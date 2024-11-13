@@ -10,7 +10,7 @@
         },
         {
             "name": "Frameworks and Libraries",
-            "properties": ["React", "Vue.js", ".NET", "SQLite", "Bootstrap", "TailwindCSS", "LitGPT", "PyTorch"]
+            "properties": ["React", "Vue.js", ".NET", "SQLite", "Bootstrap", "TailwindCSS", "PyTorch", "FastAPI"]
         },
         {
             "name": "Tools",
