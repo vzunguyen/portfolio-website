@@ -6,7 +6,7 @@
         },
         {
             "name": "Programming Languages",
-            "properties": ["C#", "C++", "JavaScript", "Python", "HTML", "CSS", "PHP", "SQL", "Sass"]
+            "properties": ["C#", "C++", "JavaScript", "Python", "HTML", "CSS","Java", "PHP", "SQL", "Sass"]
         },
         {
             "name": "Frameworks and Libraries",
@@ -14,7 +14,7 @@
         },
         {
             "name": "Tools",
-            "properties": ["Git", "Docker", "Jira", "Postman", "AWS"]
+            "properties": ["Git", "Jira", "Postman", "AWS", "Docker"]
         }
     ]
 }

@@ -1,6 +1,13 @@
 {
     "projects": [
         {
+            "title": "Book Review Project",
+            "skills": ["Java", "Spring Boot", "Docker"],
+            "state": "In Progress",
+            "link" : "https://github.com/vzunguyen/book-review",
+            "description": "To be updated."
+        },
+        {
             "title": "LLMs Project",
             "skills": ["Python", "PyTorch", "LitGPT"],
             "state": "In Progress",
@@ -10,7 +17,7 @@
         {
             "title": "Weather and Energy Efficiency Prediction Project",
             "skills": ["Python", "React", "Javascript", "Jira"],
-            "state": "In Progress",
+            "state": "Completed",
             "link" : "https://github.com/vzunguyen/weather-project",
             "description": "This project involves building a model to help predict weather conditions and energy efficiency using current weather API and NYC historical data."
         },
@@ -24,7 +31,7 @@
         {
             "title": "To Do Application Project using React",
             "skills": ["React", "JavaScript"],
-            "state": "In Progress",
+            "state": "Completed",
             "link" : "https://github.com/vzunguyen/todo-app",
             "description": "This is a small project made with React to help me learn about the basics of React framework."
         },
