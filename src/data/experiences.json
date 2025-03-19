@@ -1,6 +1,17 @@
 {
     "experiences": [
         {
+            "title": "Games Developer Internship",
+            "company": "Education Network Group",
+            "duration": "Feb 2025 - Present",
+            "description": [
+                "Learning how to cooperate, communicate in a professional environment.",
+                "Developing games using Unity and C#.",
+                "Understanding the game development process; deeper understanding of design and how design centre around users, especially for specific group of people: austistic children.",
+                "Learning how to use Confluence, Jira and Git for project management."
+            ]
+        },
+        {
             "title": "Sales Team Member and Online Personal Shopper",
             "company": "Woolworths Supermarkets",
             "duration": "2023 - Present",

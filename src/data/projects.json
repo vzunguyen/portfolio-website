@@ -1,13 +1,6 @@
 {
     "projects": [
         {
-            "title": "Book Review Project",
-            "skills": ["Java", "Spring Boot", "Docker"],
-            "state": "In Progress",
-            "link" : "https://github.com/vzunguyen/book-review",
-            "description": "To be updated."
-        },
-        {
             "title": "LLMs Project",
             "skills": ["Python", "PyTorch", "LitGPT"],
             "state": "In Progress",
@@ -20,6 +13,13 @@
             "state": "Completed",
             "link" : "https://github.com/vzunguyen/weather-project",
             "description": "This project involves building a model to help predict weather conditions and energy efficiency using current weather API and NYC historical data."
+        },
+        {
+            "title": "Book Review Project",
+            "skills": ["Java", "Spring Boot"],
+            "state": "In Progress",
+            "link" : "https://github.com/vzunguyen/book-review",
+            "description": "This project was developed in preparation for job hunting and learning Java and Springboot, technologies that are widely used in the industry."
         },
         {
             "title": "Portfolio Website",
