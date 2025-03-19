@@ -27,27 +27,6 @@
             "state": "Completed",
             "link" : "https://github.com/vzunguyen/portfolio-website",
             "description": "This website is made with React and Tailwind CSS, and uses JSON data to display my information. This website is deployed on Vercel."
-        },
-        {
-            "title": "To Do Application Project using React",
-            "skills": ["React", "JavaScript"],
-            "state": "Completed",
-            "link" : "https://github.com/vzunguyen/todo-app",
-            "description": "This is a small project made with React to help me learn about the basics of React framework."
-        },
-        {
-            "title": "Custom Web Application Project",
-            "skills": [".NET", "C#", "SQLite", "Bootstrap", "RESTful API", "JavaScript", "Vue.js"],
-            "state": "Completed",
-            "link" : "https://github.com/vzunguyen/CustomWebApplication",
-            "description": "This website contains features like user authentication, post creation, deletion, and add friend functionality. It was built using .NET, C#, SQLite, Bootstrap, RESTful API, JavaScript, and Vue.js."
-        },
-        {
-            "title": "To Do Game Project",
-            "skills": ["Ruby on Rails", "Gosu library"],
-            "state": "Completed",
-            "link" : "https://github.com/vzunguyen/to-do-app",
-            "description": "This is my first ever project made with Ruby and Gosu. This app combines the functionality of a to-do application with a fun twist. With this app, users can earn coins each time they complete a task. It offers the basic features of task management, allowing users to create and delete tasks."
         }
     ]
 }
