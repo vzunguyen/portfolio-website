@@ -5,7 +5,7 @@
             "skills": ["Python", "PyTorch", "LitGPT"],
             "state": "In Progress",
             "link" : "https://github.com/vzunguyen/llms-project",
-            "description": "This project involves building a large language model from scratch, with core components developed independently and later fine-tuned using lit-GPT for improved performance."
+            "description": "This project involves building a large language model from scratch, with core components developed independently. /n Currently under rebuilding and development."
         },
         {
             "title": "Weather and Energy Efficiency Prediction Project",

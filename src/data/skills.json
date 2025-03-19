@@ -6,15 +6,15 @@
         },
         {
             "name": "Programming Languages",
-            "properties": ["C#", "C++", "JavaScript", "Python", "HTML", "CSS","Java", "PHP", "SQL", "Sass"]
+            "properties": ["C#", "C++", "JavaScript", "Python", "Java", "HTML", "CSS", "PHP", "SQL"]
         },
         {
             "name": "Frameworks and Libraries",
-            "properties": ["React", "Vue.js", ".NET", "SQLite", "Bootstrap", "TailwindCSS", "PyTorch", "FastAPI"]
+            "properties": ["React", "Vue.js", ".NET", "SQLite", "SpringBoot", "Bootstrap", "TailwindCSS", "PyTorch", "FastAPI"]
         },
         {
             "name": "Tools",
-            "properties": ["Git", "Jira", "Postman", "AWS", "Docker"]
+            "properties": ["Git", "Confluence", "Jira", "Postman", "AWS", "Unity"]
         }
     ]
 }
