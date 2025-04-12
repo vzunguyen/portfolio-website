@@ -1,7 +1,7 @@
 import React from "react";
 import skillsData from "../data/skills.json";
 
-// skill.properties - array - display seperately each property
+// skill.properties - array - display separately each property
 
 export default function Skills() {
   return (
